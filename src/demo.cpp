@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
 
     // Calculate related values
     // **************************************************************
-    double RSS = CalculateRSS(x,y,coefbeta,Weights,fixed,n,k+1);
+    double RSS = CalculateRSS(x,y,coefbeta,Weights,fixedinter,n,k+1);
     double TSS = CalculateTSS(x,y,coefbeta,Weights,fixedinter,n,k+1);
     double R2 = CalculateR2COD(x,y,coefbeta,Weights,fixedinter,n,k+1);
     double R2Adj = CalculateR2Adj(x,y,coefbeta,Weights,fixedinter,n,k+1);
