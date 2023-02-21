@@ -1,3 +1,7 @@
+#ifndef POLYFIT_POLYFIT_HPP
+#define POLYFIT_POLYFIT_HPP
+
+
 // std lib
 #include <cstddef>
 #include <string>
@@ -128,3 +132,6 @@ void DisplayCovCorrMatrix(const std::size_t k, const double sigma, const bool fi
 
 
 }  // PolyFit namespace
+
+
+#endif  // POLYFIT_POLYFIT_HPP define
